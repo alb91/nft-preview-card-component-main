@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles */
+body {
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: ;
+}
+
+.cube-image {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.section {
+}
+.name {
+  color: hsl(0, 0%, 100%);
+}
+
+.info {
+  color: hsl(215, 51%, 70%);
+}
+
+.value {
+  color: hsl(178, 100%, 50%);
+}
+
+.days-left {
+  color: hsl(215, 51%, 70%);
+}
+
+.creator-name {
+  color: hsl(215, 51%, 70%);
+}
