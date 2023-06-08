@@ -20,7 +20,6 @@ body {
   background-color: hsl(216, 50%, 16%);
   padding: 20px;
   border-radius: 15px;
-  box-shadow: ;
 }
 
 .cube-image {
@@ -29,23 +28,62 @@ body {
 }
 
 .section {
+  padding: 10px 0;
 }
+
 .name {
   color: hsl(0, 0%, 100%);
+  padding: 10px 0;
 }
 
 .info {
   color: hsl(215, 51%, 70%);
+  padding: 10px 0;
+  font-family: "Montserrat", sans-serif;
 }
 
+.additional-details {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
 .value {
   color: hsl(178, 100%, 50%);
+  display: flex;
+}
+.value-icon {
+  padding-right: 5px;
 }
 
 .days-left {
   color: hsl(215, 51%, 70%);
+  display: flex;
 }
 
-.creator-name {
+.days-left-icon {
+  padding-right: 5px;
+}
+
+.line {
+  border-color: hsl(215, 32%, 27%);
+  margin: 15px 0;
+}
+
+.creator-info {
+  display: flex;
+  align-items: center;
+}
+
+.creator-image {
+  width: 40px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.creation {
   color: hsl(215, 51%, 70%);
+  padding: 0 15px;
+}
+.creator-name {
+  color: hsl(0, 0%, 100%);
 }
