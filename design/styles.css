@@ -5,10 +5,7 @@
 
 /* Base styles */
 body {
-  font-family: "Fraunces", serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Outfit", sans-serif;
-  font-family: "Overpass", sans-serif;
+  font-family: "Montserrat", serif;
   background-color: hsl(217, 54%, 11%);
   display: flex;
   justify-content: center;
@@ -18,7 +15,7 @@ body {
 
 .card {
   background-color: hsl(216, 50%, 16%);
-  box-shadow: 10px 0 4px black, -10px 0 4px black, 0 10px 4px black;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 15px;
 }
@@ -28,19 +25,19 @@ body {
   border-radius: 15px;
 }
 
-.section {
+.section,
+.name,
+.info {
   padding: 10px 0;
 }
 
-.name {
+.name,
+.creator-name {
   color: hsl(0, 0%, 100%);
-  padding: 10px 0;
 }
 
 .info {
   color: hsl(215, 51%, 70%);
-  padding: 10px 0;
-  font-family: "Montserrat", sans-serif;
 }
 
 .additional-details {
@@ -52,17 +49,14 @@ body {
   color: hsl(178, 100%, 50%);
   display: flex;
 }
-.value-icon {
+.value-icon,
+.days-left-icon {
   padding-right: 5px;
 }
 
 .days-left {
   color: hsl(215, 51%, 70%);
   display: flex;
-}
-
-.days-left-icon {
-  padding-right: 5px;
 }
 
 .line {
@@ -84,7 +78,4 @@ body {
 .creation {
   color: hsl(215, 51%, 70%);
   padding: 0 10px;
-}
-.creator-name {
-  color: hsl(0, 0%, 100%);
 }
